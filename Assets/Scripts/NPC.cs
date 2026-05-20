@@ -19,5 +19,12 @@ public class NPC : MonoBehaviour
         andy.interagível = false;
     }
 
+    public void Falar()
+    {
+
+        Debug.Log("Oi, meu nome é " + nome + " né!");
+
+    }
+    
    
 }
