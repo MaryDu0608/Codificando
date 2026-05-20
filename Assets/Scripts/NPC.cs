@@ -12,6 +12,11 @@ public class NPC : MonoBehaviour
         madelaine.nome = "madelaine";
         madelaine.idade = 19;
         madelaine.interagível = true;
+
+        NPC andy = new NPC();
+        andy.nome = "andy";
+        andy.idade = 20;
+        andy.interagível = false;
     }
 
    
