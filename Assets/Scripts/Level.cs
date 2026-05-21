@@ -3,6 +3,7 @@ using UnityEngine;
 public class Level : MonoBehaviour
 {
     public string area;
-    public int oooo; 
+    public int andar;
+    public bool seguro;
 
 }
